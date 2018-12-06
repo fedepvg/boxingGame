@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boxingGame", "boxingGame\boxingGame.vcxproj", "{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Debug|x64.ActiveCfg = Debug|x64
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Debug|x64.Build.0 = Debug|x64
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Debug|x86.Build.0 = Debug|Win32
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Release|x64.ActiveCfg = Release|x64
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Release|x64.Build.0 = Release|x64
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Release|x86.ActiveCfg = Release|Win32
+		{BCF108E5-ED11-402A-AEE4-E00624B3C3DA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AE4FA11-12DE-46AC-B944-F433B46B26BD}
+	EndGlobalSection
+EndGlobal

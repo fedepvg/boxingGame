@@ -1,0 +1,9 @@
+bin
+obj
+.vs
+.db
+.opendb
+release
+debug
+!/Plataformero/libs/SFML-2.5.1/bin
+!/Plataformero/libs/TGUI-0.8/bin
