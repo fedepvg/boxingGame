@@ -72,9 +72,15 @@ namespace juego
 		
 	}
 
-	void Gameplay::actualizar()
+	void Gameplay::actualizar(Personaje* personaje[tipoPersonaje::max])
 	{
-		
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				
+			}
+		}
 	}
 
 	void Gameplay::dibujar()

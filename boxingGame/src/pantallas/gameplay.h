@@ -22,7 +22,7 @@ namespace juego
 		void inicializar();
 		void reiniciar();
 		void chequearInput();
-		void actualizar();
+		void actualizar(Personaje* personaje[tipoPersonaje::max]);
 		void dibujar();
 		void desinicializar();
 		void esconderGui();

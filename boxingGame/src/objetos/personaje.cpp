@@ -54,7 +54,28 @@ namespace juego
 
 	void Personaje::chequearInput()
 	{
+		if (!estaGolpeado || !estaCaido || golpe == sinGolpe || esquive == sinEsquive)
+		{
+			if (Keyboard::isKeyPressed(static_cast<Keyboard::Key>(tipoGolpe::golpeIzq)))
+			{
+				setGolpe(golpeIzq);
+			}
 
+			if (Keyboard::isKeyPressed(static_cast<Keyboard::Key>(tipoGolpe::golpeDer)))
+			{
+				setGolpe(golpeDer);
+			}
+
+			if (Keyboard::isKeyPressed(static_cast<Keyboard::Key>(tipoEsquive::esquiveIzq)))
+			{
+				setEsquive(esquiveIzq);
+			}
+
+			if (Keyboard::isKeyPressed(static_cast<Keyboard::Key>(tipoEsquive::esquiveDer)))
+			{
+				setEsquive(esquiveIzq);
+			}
+		}
 	}
 
 	void Personaje::actualizar()
@@ -95,5 +116,10 @@ namespace juego
 	tipoPersonaje Personaje::getTipoPers()
 	{
 		return tipoPers;
+	}
+
+	void actualizarIA()
+	{
+
 	}
 }

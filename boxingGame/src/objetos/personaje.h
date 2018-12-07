@@ -7,8 +7,8 @@ using namespace sf;
 
 namespace juego
 {
-	enum tipoGolpe{golpeIzq, golpeDer, sinGolpe};
-	enum tipoEsquive{esquiveIzq, esquiveDer, sinEsquive};
+	enum tipoGolpe { golpeIzq=Keyboard::J, golpeDer=Keyboard::K, sinGolpe = 0 };
+	enum tipoEsquive { esquiveIzq = Keyboard::A, esquiveDer = Keyboard::D, sinEsquive = 0 };
 	enum tipoPersonaje{jugador,rival,max};
 
 	class Personaje
@@ -47,6 +47,7 @@ namespace juego
 		tipoEsquive getEsquive();
 		void setTipoPers(tipoPersonaje tipo);
 		tipoPersonaje getTipoPers();
+		void actualizarIA();
 	};
 }
 #endif
