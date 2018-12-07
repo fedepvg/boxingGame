@@ -12,7 +12,7 @@ namespace juego
 {
 	class Gameplay : public Pantalla
 	{
-		Personaje* jugador;
+		Personaje* personaje[tipoPersonaje::max];
 		View view;
 		tgui::Button::Ptr botonPausa;
 		static bool ganador;
@@ -22,10 +22,9 @@ namespace juego
 		void inicializar();
 		void reiniciar();
 		void chequearInput();
-		void actualizar();
+		void actualizar(Personaje* personaje[tipoPersonaje::max]);
 		void dibujar();
 		void desinicializar();
-		void crearEnemigo();
 		void esconderGui();
 		void mostrarGui();
 		static bool getGanador();

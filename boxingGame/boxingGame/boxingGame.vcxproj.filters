@@ -26,12 +26,6 @@
     <ClCompile Include="..\src\pantallas\pausa.cpp">
       <Filter>src\Pantallas</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\objetos\enemigo.cpp">
-      <Filter>src\Objetos</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\objetos\jugador.cpp">
-      <Filter>src\Objetos</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\objetos\personaje.cpp">
       <Filter>src\Objetos</Filter>
     </ClCompile>
@@ -60,12 +54,6 @@
     </ClInclude>
     <ClInclude Include="..\src\pantallas\pausa.h">
       <Filter>src\Pantallas</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\objetos\enemigo.h">
-      <Filter>src\Objetos</Filter>
-    </ClInclude>
-    <ClInclude Include="..\src\objetos\jugador.h">
-      <Filter>src\Objetos</Filter>
     </ClInclude>
     <ClInclude Include="..\src\objetos\personaje.h">
       <Filter>src\Objetos</Filter>

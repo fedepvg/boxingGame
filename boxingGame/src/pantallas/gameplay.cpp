@@ -12,12 +12,23 @@ namespace juego
 
 	Gameplay::Gameplay()
 	{
-		jugador = new Jugador(90, 2000, { 150.f,250.f });
-		crearEnemigo();
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			personaje[i] = NULL;
+		}
+
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				personaje[i] = new Personaje(90, 2000);
+				view.setCenter(personaje[i]->getPos());
+				personaje[i]->inicializar();
+			}
+		}
+		
 		
 		view.setSize(static_cast<float>(Juego::getAnchoPantalla() / 2.5f), static_cast<float>(Juego::getAnchoPantalla() / 2.5f));
-		view.setCenter(jugador->getPos());
-		jugador->inicializar();
 
 		botonPausa = tgui::Button::create();
 		botonPausa->setSize(40, 40);
@@ -31,7 +42,13 @@ namespace juego
 
 	Gameplay::~Gameplay()
 	{
-		delete jugador;
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				delete personaje[i];
+			}
+		}
 	}
 
 	void Gameplay::inicializar()
@@ -41,8 +58,13 @@ namespace juego
 
 	void Gameplay::reiniciar()
 	{
-		jugador->inicializar();
-
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				personaje[i]->inicializar();
+			}
+		}
 	}
 
 	void Gameplay::chequearInput()
@@ -50,26 +72,40 @@ namespace juego
 		
 	}
 
-	void Gameplay::actualizar()
+	void Gameplay::actualizar(Personaje* personaje[tipoPersonaje::max])
 	{
-		
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				
+			}
+		}
 	}
 
 	void Gameplay::dibujar()
 	{
 		Juego::getWindow()->setView(view);
-		jugador->dibujar();
+
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				personaje[i]->dibujar();
+			}
+		}
 	}
 
 	void Gameplay::desinicializar()
 	{
-		delete jugador;
+		for (int i = 0; i < tipoPersonaje::max; i++)
+		{
+			if (personaje[i] != NULL)
+			{
+				delete personaje[i];
+			}
+		}
 	}	
-
-	void Gameplay::crearEnemigo()
-	{
-		
-	}
 
 	void Gameplay::esconderGui()
 	{
