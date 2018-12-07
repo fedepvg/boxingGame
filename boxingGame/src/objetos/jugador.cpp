@@ -10,20 +10,11 @@ namespace juego
 {
 	static Texture tex;
 	static IntRect src;
-	bool caminandoDer;
-	bool caminandoIzq;
 	static float tiempoAnimacion;
 	static float timer;
-	static sf::SoundBuffer bufferDash;
-	static sf::SoundBuffer bufferSalto;
-	static sf::Sound dash;
-	static sf::Sound salto;
 
-	Jugador::Jugador(float x, float y, Vector2f v) :Personaje(x, y, v)
+	Jugador::Jugador(float x, float y, Vector2f v) :Personaje(x, y)
 	{
-		tex.loadFromFile("res/assets/char.png");
-		bufferDash.loadFromFile("res/assets/dash.wav");
-		bufferSalto.loadFromFile("res/assets/jump.wav");
 
 		pos = { x,y };
 
@@ -48,17 +39,7 @@ namespace juego
 
 	void Jugador::inicializar()
 	{
-		dash.setBuffer(bufferDash);
-		salto.setBuffer(bufferSalto);
-		salto.setVolume(25);
-		sprite.setOrigin(static_cast<float> (sprite.getTextureRect().width / 2), static_cast<float> ( sprite.getTextureRect().height / 2));
-
-		setPos(50, 1800);
-
-		caminandoDer = false;
-		caminandoIzq = false;
-		tiempoAnimacion = 0;
-		timer = 0.0f;
+		
 	}
 
 	void Jugador::actualizar()
@@ -72,7 +53,7 @@ namespace juego
 
 	void Jugador::dibujar()
 	{
-		Juego::getWindow()->draw(sprite);
+		//Juego::getWindow()->draw(sprite);
 	}
 
 	Jugador Jugador::getJug()

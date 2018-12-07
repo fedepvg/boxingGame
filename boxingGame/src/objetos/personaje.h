@@ -7,6 +7,10 @@ using namespace sf;
 
 namespace juego
 {
+	enum tipoGolpe{golpeIzq, golpeDer, sinGolpe};
+	enum tipoEsquive{esquiveIzq, esquiveDer, sinEsquive};
+	enum tipoPersonaje{jugador,rival,max};
+
 	class Personaje
 	{
 	protected:
@@ -14,18 +18,35 @@ namespace juego
 		sf::Vector2f pos;
 	private:
 		int cantVidas;
+		bool estaCaido;
+		bool seLevanta;
+		bool estaGolpeado;
+		bool contragolpea;
+		bool puedeGolpear;
+		bool cooldownActivo;
+		float cooldown;
+		tipoGolpe golpe;
+		tipoEsquive esquive;
+		tipoPersonaje tipoPers;
 	public:
-		Personaje(float x, float y,sf::Vector2f v);
+		Personaje(float x, float y);
 		~Personaje();
-		virtual void inicializar()=0;
+		virtual void inicializar();
 		void setVidas(int vid);
 		int getVidas();
 		sf::Vector2f getPos();
 		void setPos(float x, float y);
 		void setX(float x);
 		void setY(float y);
-		virtual void actualizar();
-		virtual void dibujar();
+		void chequearInput();
+		void actualizar();
+		void dibujar();
+		void setGolpe(tipoGolpe tGolpe);
+		void setEsquive(tipoEsquive tEsquive);
+		tipoGolpe getGolpe();
+		tipoEsquive getEsquive();
+		void setTipoPers(tipoPersonaje tipo);
+		tipoPersonaje getTipoPers();
 	};
 }
 #endif

@@ -4,7 +4,7 @@
 
 namespace juego
 {
-	Personaje::Personaje(float x, float y,Vector2f v)
+	Personaje::Personaje(float x, float y)
 	{
 		pos.x = x;
 		pos.y = y;
@@ -14,6 +14,11 @@ namespace juego
 	Personaje::~Personaje()
 	{
 		
+	}
+
+	void Personaje::inicializar()
+	{
+
 	}
 
 	void Personaje::setVidas(int vid)
@@ -47,6 +52,11 @@ namespace juego
 		pos.y = y;
 	}
 
+	void Personaje::chequearInput()
+	{
+
+	}
+
 	void Personaje::actualizar()
 	{
 		
@@ -55,5 +65,35 @@ namespace juego
 	void Personaje::dibujar()
 	{
 		
+	}
+
+	void Personaje::setGolpe(tipoGolpe tGolpe)
+	{
+		golpe = tGolpe;
+	}
+
+	void Personaje::setEsquive(tipoEsquive tEsquive)
+	{
+		esquive = tEsquive;
+	}
+
+	tipoGolpe Personaje::getGolpe()
+	{
+		return golpe;
+	}
+
+	tipoEsquive Personaje::getEsquive()
+	{
+		return esquive;
+	}
+
+	void Personaje::setTipoPers(tipoPersonaje tipo)
+	{
+		tipoPers = tipo;
+	}
+
+	tipoPersonaje Personaje::getTipoPers()
+	{
+		return tipoPers;
 	}
 }

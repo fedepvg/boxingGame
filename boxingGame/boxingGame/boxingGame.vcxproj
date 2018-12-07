@@ -21,8 +21,6 @@
   <ItemGroup>
     <ClCompile Include="..\src\juego\juego.cpp" />
     <ClCompile Include="..\src\main.cpp" />
-    <ClCompile Include="..\src\objetos\enemigo.cpp" />
-    <ClCompile Include="..\src\objetos\jugador.cpp" />
     <ClCompile Include="..\src\objetos\personaje.cpp" />
     <ClCompile Include="..\src\pantallas\creditos.cpp" />
     <ClCompile Include="..\src\pantallas\gameover.cpp" />
@@ -34,8 +32,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\juego\juego.h" />
-    <ClInclude Include="..\src\objetos\enemigo.h" />
-    <ClInclude Include="..\src\objetos\jugador.h" />
     <ClInclude Include="..\src\objetos\personaje.h" />
     <ClInclude Include="..\src\pantallas\creditos.h" />
     <ClInclude Include="..\src\pantallas\gameover.h" />
