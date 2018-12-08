@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a5d43982edd9d3fca4201280b11d8781:0e67bf0399c6489bcc4fd6c26fa10c0e:585525c70fe32ce49111cf8214a49774$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="anim_gIzq_rival.png" width="13299" height="667">
+    <sprite n="Armature_golpeIzq_00.png" x="0" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_01.png" x="403" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_02.png" x="806" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_03.png" x="1209" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_04.png" x="1612" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_05.png" x="2015" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_06.png" x="2418" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_07.png" x="2821" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_08.png" x="3224" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_09.png" x="3627" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_10.png" x="4030" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_11.png" x="4433" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_12.png" x="4836" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_13.png" x="5239" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_14.png" x="5642" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_15.png" x="6045" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_16.png" x="6448" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_17.png" x="6851" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_18.png" x="7254" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_19.png" x="7657" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_20.png" x="8060" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_21.png" x="8463" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_22.png" x="8866" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_23.png" x="9269" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_24.png" x="9672" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_25.png" x="10075" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_26.png" x="10478" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_27.png" x="10881" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_28.png" x="11284" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_29.png" x="11687" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_30.png" x="12090" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_31.png" x="12493" y="0" w="403" h="667"/>
+    <sprite n="Armature_golpeIzq_32.png" x="12896" y="0" w="403" h="667"/>
+</TextureAtlas>

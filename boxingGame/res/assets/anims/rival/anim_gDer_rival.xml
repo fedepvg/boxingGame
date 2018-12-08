@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:932075a7f1cbb18f72270c9348f94013:b3efe3e5bd642c0718d6dc07c4d0aaf9:b64ab700753555f2740d7b3d0a2646b0$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="anim_gDer_rival.png" width="13695" height="641">
+    <sprite n="Armature_golpeDer_00.png" x="0" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_01.png" x="415" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_02.png" x="830" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_03.png" x="1245" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_04.png" x="1660" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_05.png" x="2075" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_06.png" x="2490" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_07.png" x="2905" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_08.png" x="3320" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_09.png" x="3735" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_10.png" x="4150" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_11.png" x="4565" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_12.png" x="4980" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_13.png" x="5395" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_14.png" x="5810" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_15.png" x="6225" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_16.png" x="6640" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_17.png" x="7055" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_18.png" x="7470" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_19.png" x="7885" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_20.png" x="8300" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_21.png" x="8715" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_22.png" x="9130" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_23.png" x="9545" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_24.png" x="9960" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_25.png" x="10375" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_26.png" x="10790" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_27.png" x="11205" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_28.png" x="11620" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_29.png" x="12035" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_30.png" x="12450" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_31.png" x="12865" y="0" w="415" h="641"/>
+    <sprite n="Armature_golpeDer_32.png" x="13280" y="0" w="415" h="641"/>
+</TextureAtlas>

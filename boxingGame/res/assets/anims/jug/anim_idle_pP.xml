@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:a57efb0af941367bf937f78fa2beebc0:145db9a3a4e383a9b6e4a9547d9eb16a:00035e52e914f1581bf993fd6f37b448$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="anim_idle_pP.png" width="7800" height="620" cant="25">
+    <sprite n="Armature_idle_00.png" x="0" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_01.png" x="312" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_02.png" x="624" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_03.png" x="936" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_04.png" x="1248" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_05.png" x="1560" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_06.png" x="1872" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_07.png" x="2184" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_08.png" x="2496" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_09.png" x="2808" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_10.png" x="3120" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_11.png" x="3432" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_12.png" x="3744" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_13.png" x="4056" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_14.png" x="4368" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_15.png" x="4680" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_16.png" x="4992" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_17.png" x="5304" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_18.png" x="5616" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_19.png" x="5928" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_20.png" x="6240" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_21.png" x="6552" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_22.png" x="6864" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_23.png" x="7176" y="0" w="312" h="620"/>
+    <sprite n="Armature_idle_24.png" x="7488" y="0" w="312" h="620"/>
+</TextureAtlas>

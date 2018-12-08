@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:788f41e4f87037529ff93a4e91401017:6e976a0a822e5360858b820a12436648:e2ecc30948379c11ce084e05a928bdc2$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="anim_levantada_pP.png" width="17525" height="687">
+    <sprite n="Armature_levantada_00.png" x="0" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_01.png" x="701" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_02.png" x="1402" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_03.png" x="2103" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_04.png" x="2804" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_05.png" x="3505" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_06.png" x="4206" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_07.png" x="4907" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_08.png" x="5608" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_09.png" x="6309" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_10.png" x="7010" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_11.png" x="7711" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_12.png" x="8412" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_13.png" x="9113" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_14.png" x="9814" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_15.png" x="10515" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_16.png" x="11216" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_17.png" x="11917" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_18.png" x="12618" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_19.png" x="13319" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_20.png" x="14020" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_21.png" x="14721" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_22.png" x="15422" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_23.png" x="16123" y="0" w="701" h="687"/>
+    <sprite n="Armature_levantada_24.png" x="16824" y="0" w="701" h="687"/>
+</TextureAtlas>

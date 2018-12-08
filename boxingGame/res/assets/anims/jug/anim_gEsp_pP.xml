@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- $TexturePacker:SmartUpdate:26fe8d560fc846cd2c31d777594e2212:4f50556f52a6fc902adb05d03dc4af39:9bff66a5289c67ba15dded0ca4e7064e$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+with polygon mode enabled:
+vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
+verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
+triangles  => sprite triangulation, 3 vertex indices per triangle
+-->
+<TextureAtlas imagePath="anim_gEsp_pP.png" width="8375" height="707">
+    <sprite n="Armature_golpeEspecial_00.png" x="0" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_01.png" x="335" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_02.png" x="670" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_03.png" x="1005" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_04.png" x="1340" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_05.png" x="1675" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_06.png" x="2010" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_07.png" x="2345" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_08.png" x="2680" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_09.png" x="3015" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_10.png" x="3350" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_11.png" x="3685" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_12.png" x="4020" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_13.png" x="4355" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_14.png" x="4690" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_15.png" x="5025" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_16.png" x="5360" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_17.png" x="5695" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_18.png" x="6030" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_19.png" x="6365" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_20.png" x="6700" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_21.png" x="7035" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_22.png" x="7370" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_23.png" x="7705" y="0" w="335" h="707"/>
+    <sprite n="Armature_golpeEspecial_24.png" x="8040" y="0" w="335" h="707"/>
+</TextureAtlas>
