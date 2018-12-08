@@ -19,7 +19,7 @@ vertices   => points in sprite coordinate system (x0,y0,x1,y1,x2,y2, ...)
 verticesUV => points in sheet coordinate system (x0,y0,x1,y1,x2,y2, ...)
 triangles  => sprite triangulation, 3 vertex indices per triangle
 -->
-<TextureAtlas imagePath="anim_caida_pP.png" width="24570" height="674">
+<TextureAtlas imagePath="anim_caida_pP.png" width="24570" height="674" cant="35">
     <sprite n="Armature_caida_00.png" x="0" y="0" w="702" h="674"/>
     <sprite n="Armature_caida_01.png" x="702" y="0" w="702" h="674"/>
     <sprite n="Armature_caida_02.png" x="1404" y="0" w="702" h="674"/>
