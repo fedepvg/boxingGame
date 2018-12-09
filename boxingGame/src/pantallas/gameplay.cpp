@@ -1,8 +1,7 @@
 #include "gameplay.h"
 
-#include "objetos/jugador.h"
 #include "juego/juego.h"
-#include "objetos/enemigo.h"
+#include "objetos/personaje.h"
 
 namespace juego
 {
@@ -21,8 +20,10 @@ namespace juego
 		{
 			if (personaje[i] != NULL)
 			{
-				personaje[i] = new Personaje(90, 2000);
-				view.setCenter(personaje[i]->getPos());
+				if(i=tipoPersonaje::jugador)
+					personaje[i] = new Personaje(90, 2000, tipoPersonaje::jugador);
+				else
+					personaje[i] = new Personaje(90, 2000, tipoPersonaje::rival);
 				personaje[i]->inicializar();
 			}
 		}

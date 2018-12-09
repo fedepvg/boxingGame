@@ -19,8 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\libs\pugi-xml\lib\pugixml.cpp" />
     <ClCompile Include="..\src\juego\juego.cpp" />
     <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\objetos\animacion.cpp" />
     <ClCompile Include="..\src\objetos\personaje.cpp" />
     <ClCompile Include="..\src\pantallas\creditos.cpp" />
     <ClCompile Include="..\src\pantallas\gameover.cpp" />
@@ -32,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\juego\juego.h" />
+    <ClInclude Include="..\src\objetos\animacion.h" />
     <ClInclude Include="..\src\objetos\personaje.h" />
     <ClInclude Include="..\src\pantallas\creditos.h" />
     <ClInclude Include="..\src\pantallas\gameover.h" />
@@ -107,7 +110,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)src;$(SolutionDir)libs\SFML-2.5.1\include;$(SolutionDir)libs\TGUI-0.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)src;$(SolutionDir)libs\pugi-xml\include;$(SolutionDir)libs\SFML-2.5.1\include;$(SolutionDir)libs\TGUI-0.8\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)libs\TGUI-0.8\lib;$(SolutionDir)libs\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -143,7 +146,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)src;$(SolutionDir)libs\TGUI-0.8\include;$(SolutionDir)libs\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)src;$(SolutionDir)libs\TGUI-0.8\include;$(SolutionDir)libs\SFML-2.5.1\include;$(SolutionDir)libs\pugi-xml\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>

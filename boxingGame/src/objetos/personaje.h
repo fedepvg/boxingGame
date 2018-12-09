@@ -2,6 +2,7 @@
 #define PERSONAJE_H
 
 #include "SFML\Graphics.hpp"
+#include "animacion.h"
 
 using namespace sf;
 
@@ -16,6 +17,8 @@ namespace juego
 	protected:
 		sf::Sprite sprite;
 		sf::Vector2f pos;
+		Animacion* anim[cantAnimaciones];
+		tipoPersonaje tPers;
 	private:
 		int cantVidas;
 		bool estaCaido;
@@ -29,7 +32,7 @@ namespace juego
 		tipoEsquive esquive;
 		tipoPersonaje tipoPers;
 	public:
-		Personaje(float x, float y);
+		Personaje(float x, float y, tipoPersonaje tPer);
 		~Personaje();
 		virtual void inicializar();
 		void setVidas(int vid);

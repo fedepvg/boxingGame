@@ -29,6 +29,12 @@
     <ClCompile Include="..\src\objetos\personaje.cpp">
       <Filter>src\Objetos</Filter>
     </ClCompile>
+    <ClCompile Include="..\libs\pugi-xml\lib\pugixml.cpp">
+      <Filter>src\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objetos\animacion.cpp">
+      <Filter>src\Objetos</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\juego\juego.h">
@@ -58,6 +64,9 @@
     <ClInclude Include="..\src\objetos\personaje.h">
       <Filter>src\Objetos</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\objetos\animacion.h">
+      <Filter>src\Objetos</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -71,6 +80,9 @@
     </Filter>
     <Filter Include="src\Objetos">
       <UniqueIdentifier>{f1583265-6248-4450-b84d-50e6e04cbdee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libs">
+      <UniqueIdentifier>{0e7c6ab7-03d1-4ef6-aed6-c7ded39c0e19}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
